@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Helvetica";
+        src: url("./font/Helvetica.ttf") format("truetype");
+      }
+
+      h1,
+      h4,
+      p {
+        font-family: "Helvetica", Arial, sans-serif;
+      }
+      .navbar ul li {
+        cursor: pointer;
+        transition: color 0.3s;
+      }
+
+      .navbar ul li:hover {
+        color: #aaa;
+      }
+    </style>
+
+    <title>PANDYNDY STUDIO | Clothing Store</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="getIt d-flex justify-content-center align-items-center"
+        style="background-color: black; height: 40px"
+      >
+        <h4
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #fff;
+          "
+        >
+          New Collection Launch, Get it Now!
+        </h4>
+      </div>
+
+      <div class="navbar d-flex pt-4" style="margin: 0 80px">
+        <img src="./asset/logo.svg" alt="" class="logo" />
+        <nav
+          class="d-flex"
+          style="align-items: center; justify-content: center"
+        >
+          <ul
+            class="d-flex gap-5"
+            style="
+              list-style: none;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <li>Categories</li>
+            <li>New Collection</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kid</li>
+          </ul>
+        </nav>
+        <div class="icon d-flex gap-3">
+          <a href="./Homepage.html"
+            ><img src="./asset/icon-search.svg" alt="" class="search"
+          /></a>
+          <a href="./Product.html"
+            ><img src="./asset/icon-cart.svg" alt="" class="search"
+          /></a>
+          <a href="./profile.html"
+            ><img src="./asset/icon-profile.svg" alt="" class="search"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+      <section
+        class="home d-flex flex-column text-center"
+        style="
+          background-image: url('./asset/bg-img.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 400px;
+          padding: 25% 20%;
+        "
+      >
+        <h1 style="font-size: 100px; color: #fff; font-weight: 700">
+          Summer Outfit
+        </h1>
+        <p style="font-size: 16px; color: #fff; font-weight: 100">
+          As summer approaches, embrace light outfits to stay cool and stylish.
+          A flowy sundress with comfy sandals is perfect for casual outings. For
+          a relaxed look, try a loose tank top with denim shorts and a
+          wide-brimmed hat. Add colorful sunglasses and a light scarf for flair!
+        </p>
+      </section>
+
+      <section class="collection mt-4" style="margin: 0 80px">
+        <div class="containerTitle d-flex align-items-center">
+          <div class="title" style="margin-bottom: 40px">
+            <h2 style="font-family: Helvetica; font-weight: 600">
+              New Collection
+            </h2>
+            <p style="width: 80%">
+              Our summer collection takes you to a tropical paradise with
+              vibrant colors and floral prints.
+            </p>
+          </div>
+
+          <h4
+            class="seemore"
+            style="
+              margin: 0 0 0 20%;
+              font-family: Helvetica;
+              font-size: 16px;
+              text-decoration: underline;
+            "
+          >
+            See More Collection
+          </h4>
+        </div>
+
+        <div class="containerProduct d-flex flex-column justify-content-center align-items-center align-content-center">
+          <div class="containerProductTop d-flex gap-5">
+            <a href="./Product.html"><img
+              src="./asset/product/product.png"
+              alt=""
+              style="width: 160; height: 160"
+            /></a>
+            <img
+              src="./asset/product/product1.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+            <img
+              src="./asset/product/product2.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+            <img
+              src="./asset/product/product6.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+          </div>
+
+          <div class="containerProductBottom d-flex gap-5">
+            <img
+              src="./asset/product/product3.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+            <img
+              src="./asset/product/product4.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+            <img
+              src="./asset/product/product5.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+            <img
+              src="./asset/product/product8.png"
+              alt=""
+              style="width: 160; height: 160"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="feature" style="margin: 80px 80px">
+        <div class="titleFeature text-center">
+          <h1 style="font-weight: 600">Why You'll Love Shopping</h1>
+          <h1 style="font-weight: 600">With Us</h1>
+        </div>
+
+        <div
+          class="containerFeature d-flex justify-content-center align-items-center"
+          style="gap: 10%; margin-top: 5%"
+        >
+          <img src="./asset/feature/feature1.svg" alt="" style="width: 300px" />
+          <img src="./asset/feature/feature2.svg" alt="" style="width: 300px" />
+          <img src="./asset/feature/feature3.svg" alt="" style="width: 300px" />
+        </div>
+      </section>
+
+      <section class="category" style="margin: 80px 80px">
+        <div class="containerTitle d-flex align-items-center">
+          <div class="title" style="margin-bottom: 40px; width: 60%">
+            <h2 style="font-family: Helvetica; font-weight: 600">
+              Upgrade Your Style with <br />
+              our Collection
+            </h2>
+            <p>
+              Revamp your closet with our new collection! Enjoy tropical vibes,
+              <br />
+              vibrant colors, and floral patterns that will brighten your day.
+            </p>
+          </div>
+
+          <h4
+            class="seemore"
+            style="
+              margin: 0 0 0 20%;
+              font-family: Helvetica;
+              font-size: 16px;
+              text-decoration: underline;
+            "
+          >
+            See More Collection
+          </h4>
+        </div>
+
+        <div class="containerCategory d-flex gap-3">
+          <div class="containerRight d-flex flex-column gap-3">
+            <div class="categoryKpop d-flex text-center justify-content-center align-items-center" style="width: 100vh; height: 50vh; background-image: url(./asset/category/kpop.png); border-radius: 20px; align-items: center;">
+                <h1 style="font-size: 64px; color: #fff; font-family: Helvetica; font-weight: 600;">KPOP Style</h1>
+            </div>
+
+            <div class="categoryY2k d-flex text-center justify-content-center align-items-center" style="width: 100vh; height: 47vh; background-image: url(./asset/category/y2k.png); border-radius: 20px; background-size: cover;">
+                <h1 style="font-size: 64px; color: #fff; font-family: Helvetica; font-weight: 600;">Y2k Style</h1>
+            </div>
+          </div>
+
+          <div class="containerLeft">
+            <div class="categorySport d-flex text-center justify-content-center align-items-center" style="width: 90vh; height: 100vh; background-image: url(./asset/category/Sport.png); border-radius: 20px; background-size: cover;"">
+                <h1 style="font-size: 64px; color: #fff; font-family: Helvetica; font-weight: 600;">SPORT Style</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="d-flex flex-column gap-4 justify-content-center" style="background-color: black; padding: 20px 80px;">
+        <div class="footertop d-flex align-items-center" style="justify-content: space-between; align-items: center;">
+            <img src="./asset/logoFooter.svg" alt="" srcset="">
+            <a href="./Chat.html"
+          ><img src="./asset/medsos.svg" alt="" srcset=""
+        /></a>
+        </div>
+
+        <img src="./asset/line.svg" alt="" srcset="">
+
+        <div class="footerbottom d-flex align-items-center" style="justify-content: space-between; align-items: center; color: white;">
+            <h4 style="font-size: 16px;">Copyright 2024 PANDYNDY STUDIO.All right reserved</h4>
+            <ul class="d-flex" style="justify-content: center; list-style: none; gap: 10px;">
+                <li>Policy Service</li>
+                <li>Cookie Policy</li>
+                <li>Partners</li>
+            </ul>
+        </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
